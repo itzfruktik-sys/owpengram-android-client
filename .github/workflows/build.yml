@@ -5,7 +5,7 @@ on:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
-  workflow_dispatch: # Кнопка ручного запуска воркфлоу в GitHub
+  workflow_dispatch:
 
 jobs:
   build:
@@ -34,4 +34,4 @@ jobs:
         with:
           name: OwpenGram-Debug-APK
           path: '**/build/outputs/apk/debug/*.apk'
-                    retention-days: 7
+          retention-days: 7
