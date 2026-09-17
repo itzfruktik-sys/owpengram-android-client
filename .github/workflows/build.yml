@@ -34,5 +34,4 @@ jobs:
         with:
           name: OwpenGram-Debug-APK
           path: '**/build/outputs/apk/debug/*.apk'
-          retention-d
-          ays: 7
+                    retention-days: 7
